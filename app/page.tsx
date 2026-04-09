@@ -58,35 +58,39 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-white border-b border-slate-100">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-20 md:py-28">
+      <section
+        className="relative bg-cover bg-center bg-no-repeat border-b border-slate-100"
+        style={{ backgroundImage: "url('/hero-bg.webp')" }}
+      >
+        <div className="absolute inset-0 bg-black/10" />
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-20 md:py-28">
           <div className="max-w-3xl">
-            <p className="text-orange-500 text-sm font-semibold uppercase tracking-wider mb-4">
+            <p className="text-orange-400 text-sm font-semibold uppercase tracking-wider mb-4">
               Low-cost path to ownership
             </p>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight mb-5">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-5">
               Stop renting your life.<br />
               Start building your own.
             </h1>
-            <p className="text-lg md:text-xl text-slate-600 mb-8 max-w-2xl leading-relaxed">
+            <p className="text-lg md:text-xl text-slate-200 mb-8 max-w-2xl leading-relaxed">
               Practical path from employed to owner. China supply chain intelligence, certified suppliers, and 1:1 execution — not theory. Your first order, done with you.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link
                 href="/talk"
-                className="inline-flex items-center gap-2 bg-slate-900 text-white font-semibold px-6 py-3 rounded-md hover:bg-slate-700 transition-colors"
+                className="inline-flex items-center gap-2 bg-orange-500 text-white font-semibold px-6 py-3 rounded-md hover:bg-orange-600 transition-colors"
               >
                 Talk 1:1 (WhatsApp)
               </Link>
               <Link
                 href="/program#99"
-                className="inline-flex items-center gap-2 border border-slate-300 text-slate-700 font-medium px-6 py-3 rounded-md hover:border-slate-900 hover:text-slate-900 transition-colors"
+                className="inline-flex items-center gap-2 border border-white/70 text-white font-medium px-6 py-3 rounded-md hover:border-white hover:bg-white/10 transition-colors"
               >
                 Try $99 (Self-Study)
               </Link>
               <Link
                 href="/results"
-                className="inline-flex items-center gap-2 text-slate-500 font-medium px-4 py-3 hover:text-slate-700 transition-colors"
+                className="inline-flex items-center gap-2 text-slate-300 font-medium px-4 py-3 hover:text-white transition-colors"
               >
                 See Proof →
               </Link>

@@ -2,17 +2,17 @@ import Link from "next/link";
 
 export default function OneBanner() {
   return (
-    <div className="bg-slate-900 text-white">
+    <div className="bg-orange-50 border-y border-orange-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 md:py-14">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           <div>
-            <p className="text-orange-400 text-sm font-semibold uppercase tracking-wider mb-2">
+            <p className="text-orange-500 text-sm font-semibold uppercase tracking-wider mb-2">
               1:1 Guided Track
             </p>
-            <h2 className="text-2xl md:text-3xl font-bold leading-tight mb-2">
+            <h2 className="text-2xl md:text-3xl font-bold text-slate-900 leading-tight mb-2">
               Your first order — I walk it with you (1:1).
             </h2>
-            <p className="text-slate-300 max-w-xl">
+            <p className="text-slate-600 max-w-xl">
               We don&apos;t sell theory. We help you finish your first order. From supplier selection to goods at your door — together.
             </p>
           </div>
