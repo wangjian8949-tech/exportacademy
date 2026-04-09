@@ -87,8 +87,12 @@ export default async function BlogPostPage({ params }: Props) {
             {renderText(post.preview)}
           </div>
 
-          {/* Unlock Gate */}
-          <UnlockGate full={post.full} />
+          {/* Full content: free posts show directly, others gated */}
+          {post.free ? (
+            <div className="prose-custom">{renderText(post.full)}</div>
+          ) : (
+            <UnlockGate full={post.full} />
+          )}
         </div>
       </article>
 

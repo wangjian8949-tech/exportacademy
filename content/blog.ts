@@ -7,9 +7,249 @@ export interface BlogPost {
   preview: string;
   full: string;
   readTime: string;
+  free?: boolean;
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "10-years-of-saving-vs-one-day-of-profit",
+    title: "10 Years of Saving ≠ One Day of Profit",
+    date: "2025-04-08",
+    category: "Mindset",
+    excerpt: "You've been saving for a decade. Someone else made more than that on a single shipment.",
+    readTime: "3 min read",
+    free: true,
+    preview: `You've been saving for a decade. Someone else made more than that on a single shipment.
+
+It's not that you're lazy. You probably outwork everyone you know. The problem is you're sprinting on a road with a ceiling.
+
+Your salary has a cap. Your boss gives you a 5% raise and you're grateful. But have you ever done the math on a single container of women's apparel shipped from Guangdong to LA? The margin on each piece can equal your daily wage.
+
+**Trading hours for dollars is the most expensive deal you'll ever make.**`,
+    full: `Your time shouldn't be sold by the hour. It should be embedded in a system — sourcing, quality control, logistics, listing — that generates revenue whether you're awake or not.
+
+**Do this today:** Write down one specific product you could sell. Not "clothing." Something like "summer cotton V-neck midi dress, retail $29.99." Then find three factories on Alibaba and request quotes.
+
+You don't need to quit your job. You need a parallel track.`,
+  },
+  {
+    slug: "your-job-is-a-subscription-business-is-an-asset",
+    title: "Your Job Is a Subscription. Business Is an Asset.",
+    date: "2025-04-07",
+    category: "Mindset",
+    excerpt: "Your paycheck is a monthly subscription. The moment you stop showing up, the money stops.",
+    readTime: "4 min read",
+    free: true,
+    preview: `Your paycheck is a monthly subscription. The moment you stop showing up, the money stops. That's not income. That's a service contract where you're the service.
+
+**A business is an asset.**
+
+Here's what that means: you spend three months building a supply chain — find the factory, lock in quality, set up logistics. That chain is now reusable. Your first order nets $3,000. Your second order is just pressing "reorder." By the tenth order, you're not learning anything new. You're just collecting.
+
+**A salary can't be duplicated. A process can.**`,
+    full: `A salary can't be outsourced. But your quality inspection can go to a QC firm. Your freight can go to a forwarder. Your product listing can go to a VA. When every link in the chain runs without your hands on it — you don't have a job anymore. You have a machine.
+
+**Do this today:** Grab a piece of paper. Draw four boxes: Source → Sample → Inspect → Ship. In each box, write who does it and how long it takes. That's your first system blueprint.`,
+  },
+  {
+    slug: "most-people-stay-poor-because-they-only-learn",
+    title: "Most People Stay Poor Because They Only \"Learn\" — They Never Ship.",
+    date: "2025-04-06",
+    category: "Mindset",
+    excerpt: "Learning feels like progress. That feeling is a trap.",
+    readTime: "4 min read",
+    free: true,
+    preview: `You've bookmarked 200 videos. You bought three books on e-commerce. You've watched countless YouTube breakdowns of people making six figures from their laptop.
+
+Then what?
+
+Then you closed the screen and went back to work.
+
+**Learning feels like progress. That feeling is a trap.** Because real progress has only one indicator — you did something you've never done before.
+
+"I'll start when I'm ready" is a lie. Nobody learns to swim on dry land. You learn in the water.`,
+    full: `Perfectionism is fear wearing a nice outfit. "Let me do more research" translates to "I'm afraid of getting it wrong." Here's the truth: your first order will have mistakes. You'll pick the wrong product, choose the wrong factory, overpay your freight forwarder by $200. All of it is tuition — and it's worth more than any course, because it's yours.
+
+**Your 7-day challenge:** Start the clock now. Within seven days, get a real sample in your hands. Any product. Complete the smallest possible loop: search → contact → sample → receive.
+
+Seven days from now, you'll realize it was never as hard as you thought.`,
+  },
+  {
+    slug: "a-good-supplier-is-not-found-it-is-verified",
+    title: "A \"Good Supplier\" Is Not Found. It Is Verified.",
+    date: "2025-04-05",
+    category: "Sourcing",
+    excerpt: "There are two million suppliers on Alibaba. Every single one tells you 'we are the best factory.'",
+    readTime: "4 min read",
+    free: true,
+    preview: `There are two million suppliers on Alibaba. Every single one tells you "we are the best factory."
+
+Who do you believe?
+
+Beginner trap #1: Pick whoever quotes the lowest price. Trap #2: The sample looks great, so you place a bulk order. Trap #3: Bulk arrives and the color is off, the sizing is wrong, and the fabric feels nothing like the sample.
+
+**Good suppliers are not stumbled upon. Good suppliers are investigated like a detective on a case.**`,
+    full: `A quote is just the opening line. The real questions are: Have they manufactured your product category before? Can their capacity handle your volume? What's gone wrong in the past, and how did they handle it? Can you see an audit report?
+
+I've spent 20 years in supply chains. Here's a truth I'll give you for free: every hour you invest in verifying a supplier saves you a hundred hours in after-sales disasters.
+
+**Your 3-step supplier verification checklist:**
+① Request business license + factory audit reports (BSCI / ISO / brand client references)
+② Ask for a live factory video — the production floor, the warehouse, the QC station. Not the showroom.
+③ Start with a test order. 200 units of proof beats 2,000 units of blind faith. Every time.`,
+  },
+  {
+    slug: "if-you-cant-explain-your-margin-youre-gambling",
+    title: "If You Can't Explain Your Margin, You're Gambling.",
+    date: "2025-04-04",
+    category: "Finance",
+    excerpt: "\"I think I can make money on this.\" — Five words that have bankrupted more beginners than bad luck ever did.",
+    readTime: "4 min read",
+    free: true,
+    preview: `"I think I can make money on this." — Five words that have bankrupted more beginners than bad luck ever did.
+
+You find a dress on Alibaba for $5. It sells on Amazon for $24.99. The gap looks huge. So you order.
+
+Three months later, reality arrives: ocean freight spiked, duties were higher than you assumed, Amazon took its 15% referral fee, returns hit 12%, and you forgot about storage fees and ad spend.
+
+**After all that, you're losing $1.20 per unit. The more you sell, the more you lose.**
+
+That's not a business. That's a donation.`,
+    full: `**There's one formula you must own: Landed Cost = Product Cost + Shipping + Duties + Platform Fees + Return Budget + Marketing Cost.** Your selling price minus that number is your profit. If you can't calculate that number right now — you should not be placing an order.
+
+This isn't meant to discourage you. It's meant to protect the capital you worked so hard to save.
+
+**Do this today:** Download our Landed Cost calculator. Take the one product you most want to sell and fill in every cell. The blanks you can't fill? That's exactly what you still need to learn.`,
+  },
+  {
+    slug: "your-first-order-is-an-identity-shift",
+    title: "Your First Order Is Not About Money. It's an Identity Shift.",
+    date: "2025-04-03",
+    category: "Getting Started",
+    excerpt: "The moment you hit 'pay,' you stopped being someone who wants to start a business and became someone who has a business.",
+    readTime: "3 min read",
+    free: true,
+    preview: `Your first order might make you $500. Maybe less. Maybe you break even.
+
+It doesn't matter.
+
+What matters is this: **the moment you hit "pay," you stopped being someone who wants to start a business and became someone who has a business.** Those are two completely different people.
+
+The first one keeps asking "what if it fails?" The second one is already asking "when does the next batch ship?"`,
+    full: `Your first order will teach you more than any course ever could: how to communicate with a factory, how to evaluate sample details, how to track a shipment, how to handle problems you never anticipated. None of this can be learned from a book. It can only be learned by doing.
+
+Don't wait until you're ready. You will never feel ready. You become ready by going through the process.
+
+**Do this right now:** Open your email. Send an inquiry to a factory you found last week. Three lines is all you need: what product, how many units, when you need it.
+
+Hit send.
+
+That email is the first sentence of your new identity.`,
+  },
+  {
+    slug: "aql-and-inspection-the-skill-that-saves-thousands",
+    title: "AQL and Inspection: The Skill That Saves You Thousands.",
+    date: "2025-04-02",
+    category: "Quality Control",
+    excerpt: "Quality control is not luck. It's not 'hoping the factory doesn't mess up.' It's math.",
+    readTime: "4 min read",
+    free: true,
+    preview: `Quality control is not luck. It's not "hoping the factory doesn't mess up." It's not "it should be fine."
+
+**Quality control is math. It's called AQL — Acceptable Quality Level.**
+
+Here's how it works: in a batch of 2,000 units, you pull 125 according to a standardized sampling table. If defects exceed 5, the entire batch gets reworked. You don't inspect every piece. You don't rely on gut feeling. The standard is there. The numbers decide.
+
+The #1 place beginners lose money isn't overpaying for product. It isn't high shipping costs. It's receiving a batch of defective goods they can't return and can't sell.`,
+    full: `A single inspection costs $200–300. A bad shipment can cost $5,000–20,000. Everyone can do that math.
+
+**What you need is a QC checklist:** Visual inspection → Measurement check → Function test → Packaging verification → Carton standard. Every step has a clear benchmark. You don't need to be an expert. You just need to follow the form and check the boxes.
+
+**Do this today:** Download our QC Checklist and print it. Next time you receive a sample, run it through every line. You'll find at least three things you previously would have called "good enough" — but aren't.`,
+  },
+  {
+    slug: "freight-and-customs-its-just-a-checklist",
+    title: "Freight and Customs: The Part Beginners Fear — Until It's a Checklist.",
+    date: "2025-04-01",
+    category: "Logistics",
+    excerpt: "Logistics is not rocket science. It's a checklist. All fear is an information gap.",
+    readTime: "4 min read",
+    free: true,
+    preview: `"Logistics is so complicated." "I don't understand customs." "How do I even calculate duties?"
+
+Every beginner says this. Then they let fear shelve their entire plan for three months.
+
+**Here's a secret: logistics is not rocket science. It's a checklist.**
+
+Here's everything you need to know: FOB or CIF? Ocean or air? Does the forwarder's quote include destination charges? Are you using your customs bond or theirs? What's the HS code and what's the duty rate?
+
+Every one of those answers is fixed. You look it up once. Done.`,
+    full: `Most people are intimidated by logistics not because it's actually difficult — but because nobody translated the jargon into plain English. "Demurrage" sounds terrifying. It just means your container sat at the port too long and you owe a parking fee. "Customs bond" sounds like Wall Street. It's just a deposit that guarantees you'll pay your duties.
+
+**All fear is an information gap.**
+
+**Do this today:** Write down five things — ① your product's HS code ② the applicable duty rate ③ quotes from two freight forwarders ④ your origin port and destination port ⑤ estimated transit time.
+
+Once those five blanks are filled, logistics stops being scary.`,
+  },
+  {
+    slug: "your-product-is-not-special-your-system-is",
+    title: "Your Product Is Not Special. Your System Is.",
+    date: "2025-03-31",
+    category: "Growth",
+    excerpt: "Winning products die. What actually makes money long-term is whether you have a system.",
+    readTime: "4 min read",
+    free: true,
+    preview: `Everyone wants to find a "winning product." Some undiscovered blue-ocean niche. A secret category with 70% margins.
+
+**Wake up.**
+
+Winning products die. Every hot product has an expiration date. The item that's printing money for you today will have ten copycats undercutting your price within six months.
+
+What actually makes money long-term is not **which** product you sell — it's whether you have a system that can rapidly find the next product, spin up the supply chain, list it, validate it, and iterate.
+
+**Systems compound. Products don't.**`,
+    full: `You know what separates seven-figure sellers from the rest? It's not better product selection. It's that they always have a second factory, a second product, and a second channel warming up in the background. When one line breaks, another one steps in.
+
+**"Second supplier awareness"** — this is the turning point between amateur and operator. Your main factory must have a backup. Not because you don't trust them. Because any single point of dependency is a time bomb: factory relocates, owner disappears, peak season capacity maxes out, quality slips.
+
+Your backup doesn't need to be better. It just needs to exist.
+
+**Do this today:** For your current primary product, find one more factory and request a quote. Even if you never use them — put them in your contacts. That's your insurance policy.`,
+  },
+  {
+    slug: "if-you-need-motivation-you-need-a-path",
+    title: "If You Need Motivation, You Need a Path.",
+    date: "2025-03-30",
+    category: "Mindset",
+    excerpt: "You don't lack drive. You lack a map. Motivation is the least reliable fuel source there is.",
+    readTime: "4 min read",
+    free: true,
+    preview: `You don't lack drive. You lack a map.
+
+Telling yourself "let's go" every morning doesn't work. Podcasts, affirmations, journaling, visualization — none of these will earn you your first dollar.
+
+**Motivation is the least reliable fuel source there is.** It arrives fast and leaves faster. Today you watch a success story and your blood runs hot. Tomorrow you open Alibaba, get buried under two million suppliers, and retreat.
+
+What you need is not the **feeling** of wanting it. You need a path — what to do first, what to do second, what to do when something goes wrong, and who to ask when you're stuck.`,
+    full: `**When every step is clear, you don't need motivation. You just follow the sequence.**
+
+Paths are repeatable. Motivation is not.
+
+That's why some people self-study for two years and never place a first order, while others complete the entire cycle — product selection to payment received — in 90 days. It's not that the second group is smarter, harder-working, or more talented. They had a map. The first group was navigating a forest by feel.
+
+**Here's your decision:**
+
+| $99 Course | The complete path: product selection, sourcing, sampling, QC, logistics, listing — every step |
+| $499 Guided | The path + 20 years of supply chain experience, walking you through your first order one-on-one |
+| $999 Deep | The path + guidance + building a repeatable supply chain system you can scale |
+
+You don't need more inspiration. You need step one.
+
+**Do this today:** Pick a tier. Click the link. Submit your info. Within 24 hours, you'll receive a custom launch plan built for your situation.
+
+Not tomorrow. Not next week. Today.`,
+  },
   {
     slug: "stop-waiting-for-the-right-time",
     title: "Stop Waiting for the Right Time. There Isn't One.",
